@@ -35,4 +35,4 @@ else:
     print("Failed to connect ...")
 
 # ssh -p 6002 target_machine_user_name@loaclhost
-#
+# target machie password
