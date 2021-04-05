@@ -29,7 +29,7 @@ print('index:{}'.format(index))
 
 if index == 0:
     print("Typing password automatically ...")
-    child.sendline('yoSZUhRb4EVzFcr0')
+    child.sendline(args.pwd) # password of stepping machine 
     child.expect(pexpect.EOF, timeout=None)
 else:
     print("Failed to connect ...")
